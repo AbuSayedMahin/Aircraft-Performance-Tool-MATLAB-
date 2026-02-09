@@ -1,6 +1,6 @@
-Aircraft Performance Analysis Tool (MATLAB)
+ Aircraft Performance Analysis Tool (MATLAB)
 
- ✈️ Overview
+ ✈️ Overview
 This project presents a MATLAB-based aircraft performance analysis tool
 developed as part of my personal engineering portfolio alongside my
 BEng Aerospace Engineering studies.
@@ -16,7 +16,7 @@ into aircraft performance trends and endurance conditions.
 - ISA atmospheric modelling
 - Data visualisation & engineering interpretation
 
- 📐 Engineering Theory
+ 📐 Engineering Theory
 Aerodynamic forces are computed using classical relations:
 
 Lift:
@@ -26,19 +26,19 @@ Drag:
 D = 0.5 · ρ · V² · S · C_D
 
 For steady, level flight:
-Thrust Required = Drag
-Power Required = Thrust × Velocity
+Thrust Required = Drag  
+Power Required = Thrust × Velocity  
 
 Atmospheric properties are calculated using the ISA tropospheric model
 (up to 11 km altitude).
 
- ▶️ How to Run
+ ▶️ How to Run
 1. Open MATLAB
 2. Navigate to the `src` directory
 3. Run `main.m`
 4. Generated figures are saved automatically in the `figures` folder
 
- 📈 Results & Insights
+ 📈 Results & Insights
 The final analysis includes:
 - Thrust required vs velocity at multiple altitudes
 - Power required vs velocity at sea level
@@ -54,7 +54,7 @@ into practical aircraft performance analysis.
 - Multi-aircraft configuration comparison
 - Extension to higher-altitude atmosphere models
 
- ⚠️ Academic Integrity Notice
+⚠️ Academic Integrity Notice
 This project is a personal portfolio work inspired by university-level
 learning. All problem statements have been generalised and no official
 coursework questions or assessment solutions are included.
