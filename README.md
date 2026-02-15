@@ -10,12 +10,20 @@ Author: Abu Sayed Mahin | Course: BEng Aerospace Engineering (Year 1) | Universi
 
 ## 📌 Project Overview
 
-This technical project demonstrates my aerospace engineering capabilities through computational aircraft performance analysis. Developed as part of my second-year studies, the tool simulates and visualizes key performance characteristics across multiple aircraft configurations, showcasing my proficiency in:
+This technical project demonstrates my aerospace engineering capabilities through computational aircraft performance analysis. The tool simulates and visualizes key performance characteristics across multiple aircraft configurations, showcasing my proficiency in:
 
 - **Aerodynamic analysis** (drag polar estimation, lift-drag relationships)
 - **Propulsion-performance integration** (thrust/power requirements)
 - **Atmospheric modeling** (ISA standard atmosphere up to 15,000m)
 - **Technical MATLAB programming** & data visualization
+
+This MATLAB-based tool analyzes aircraft performance for multiple aircraft configurations under various altitudes and flight conditions. It generates:
+
+- Thrust required & power required curves 
+- Drag polar curves  
+- Take-off distance and climb performance estimates  
+
+This v2.0 release introduces multi-aircraft comparison and high-altitude extension.
 
 ## 🎯 Why This Project?
 
