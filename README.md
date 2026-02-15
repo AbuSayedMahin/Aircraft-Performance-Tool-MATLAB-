@@ -1,60 +1,74 @@
- Aircraft Performance Analysis Tool (MATLAB)
+Aircraft Performance Tool (v2.0) 🛫
 
- ✈️ Overview
-This project presents a MATLAB-based aircraft performance analysis tool
-developed as part of my personal engineering portfolio alongside my
-BEng Aerospace Engineering studies.
+Author: Abu Sayed Mahin
+Domain: Aerospace Engineering | Aircraft Performance Analysis
+GitHub: github.com/AbuSayedMahin
 
-The tool models thrust and power required across a range of flight
-velocities and altitudes using fundamental aerodynamic theory and the
-International Standard Atmosphere (ISA). The results provide insight
-into aircraft performance trends and endurance conditions.
+Overview
 
-🛠 Tools & Skills
-- MATLAB
-- Aircraft performance fundamentals
-- ISA atmospheric modelling
-- Data visualisation & engineering interpretation
+This MATLAB project simulates and visualizes aircraft performance for multiple aircraft configurations under various altitudes and flight conditions.
+It generates portfolio-ready figures for:
 
- 📐 Engineering Theory
-Aerodynamic forces are computed using classical relations:
+Thrust required vs velocity
 
-Lift:
-L = 0.5 · ρ · V² · S · C_L
+Power required vs velocity
 
-Drag:
-D = 0.5 · ρ · V² · S · C_D
+Drag polar comparison
 
-For steady, level flight:
-Thrust Required = Drag  
-Power Required = Thrust × Velocity  
+Take-off and climb performance
 
-Atmospheric properties are calculated using the ISA tropospheric model
-(up to 11 km altitude).
+This v2.0 release includes multi-aircraft comparison, high-altitude extension (up to 15,000 m), and improved figure presentation — perfect for UK aerospace internship or placement applications.
 
- ▶️ How to Run
-1. Open MATLAB
-2. Navigate to the `src` directory
-3. Run `main.m`
-4. Generated figures are saved automatically in the `figures` folder
 
- 📈 Results & Insights
-The final analysis includes:
-- Thrust required vs velocity at multiple altitudes
-- Power required vs velocity at sea level
-- Identification of the best endurance flight condition
-- Visual comparison of altitude effects due to air density variation
+           Features                                         Feature	Status
+Drag polar estimation (C_D vs C_L)	                ✅ Multi-aircraft included
+Take-off distance & climb performance	             ✅ Figure generated (takeoff_climb.png)
+Multi-aircraft configuration comparison           	✅ Included in all plots
+High-altitude extension	                           ✅ Altitudes up to 15,000 m included
+ 
+ Figures:
+All figures are saved in the figures/ folder:
+(aircraft_performance_multi_aircraft.png) – Thrust & Power curves for multiple aircraft and altitudes
+(drag_polar_multi.png) – Drag polar comparison
+(takeoff_climb_performance.png) – Take-off & climb performance
 
-These results demonstrate how fundamental aerodynamic theory translates
-into practical aircraft performance analysis.
 
-🔮 Future Improvements
-- Drag polar estimation (C_D vs C_L)
-- Take-off distance and climb performance
-- Multi-aircraft configuration comparison
-- Extension to higher-altitude atmosphere models
+How to Run
+Clone the repository:
+git clone https://github.com/AbuSayedMahin/aircraft-performance-tool.git
 
-⚠️ Academic Integrity Notice
-This project is a personal portfolio work inspired by university-level
-learning. All problem statements have been generalised and no official
-coursework questions or assessment solutions are included.
+Open MATLAB and navigate to src/.
+Ensure these files exist:
+
+main.m
+
+lift_drag.m
+
+thrust_required.m
+
+isa_atmosphere.m
+
+Run main.m → Figures will automatically generate in figures/.
+
+Future Improvements
+
+While this version covers multi-aircraft performance, drag polar, take-off/climb, and high-altitude extension, potential next steps include:
+
+Take-off runway distance calculations
+Full climb trajectory simulations
+Multi-engine or hybrid propulsion models
+Extending to even higher altitudes and complex atmosphere models
+
+Tech Stack
+
+MATLAB – Core calculations & plotting
+Structured multi-aircraft workflow – Easily extendable
+Portfolio-ready figures – Professional-quality visualizations
+
+Contact
+
+Abu Sayed Mahin
+LinkedIn - https://www.linkedin.com/in/abu-sayed-mahin-9b6b972a3/ 
+  GitHub - https://github.com/AbuSayedMahin
+  Mail - sayedmahin37@gmail.com (Personal)
+         abu2.mahin@live.uwe.ac.uk (UNI)
